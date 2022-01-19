@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="E(`:qe!u3tPKb_oenVBx">Player</variable><variable type="KIND_SpriteKind" id="gP,h,=knFXvzHRZT.aaC">Projectile</variable><variable type="KIND_SpriteKind" id="Oa?Fqy-e~RYwne0!gvgV">Food</variable><variable type="KIND_SpriteKind" id="k$_~W*roMOmW6@u;_K{U">Enemy</variable><variable id="oTjaq^23=KNXxLKEw/lI">mySprite</variable><variable id="`b[e~1bv-D`@T%u%eQ%+">elf 1</variable></variables><block type="variables_set" id="Rbcg5?w8r;)%b0OZAe?K" disabled="true" x="-20" y="-60"><field name="VAR" id="`b[e~1bv-D`@T%u%eQ%+">elf 1</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="sX@gV,7ZOH%$iuS~Zr~p" disabled="true"><value name="img"><shadow type="screen_image_picker" id="vMnFUk}c-sXbg%!;l.:`" disabled="true"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"vMnFUk}c-sXbg%!;l.:`"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="tfQV1R,WDl`EVFbr!C|;" disabled="true"><field name="MEMBER">Player</field></shadow></value></block></value></block><block type="pxt-on-start" id="OKSV}JT3ap^hF5{W7?q0" x="0" y="0"><statement name="HANDLER"><block type="gamecountdown" id="xIlU`@h}TqF1LJCKgwuK"><value name="duration"><shadow type="math_number" id="lyQ(0gMmG+6=HGG6Topx"><field name="NUM">300</field></shadow></value></block></statement></block><block type="game_control_sprite" id="Wo;AcusV0oG^p8`mB^Yp" disabled="true" x="80" y="100"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="+9XU;Xbw7X;u)[-bE]+B" disabled="true"><field name="VAR" id="`b[e~1bv-D`@T%u%eQ%+">elf 1</field></block></value></block><block type="game_dialog_set_text_color" id=".$BdDWk;W/yVEB5W2Y/8" disabled="true" x="320" y="280"><value name="color"><shadow type="colorindexpicker" id="7K)]Oih~A8-CiZlK6Et}" disabled="true"><field name="index">13</field></shadow></value></block></xml>
